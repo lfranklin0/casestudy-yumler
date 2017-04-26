@@ -1,3 +1,8 @@
+@font-face {
+   font-family: "Core Sans G Regular", "Core Sans G Medium";
+   src: url("http://lfranklin.studio.mcad.edu/webdev1/week12/casestudy-yumler/fonts/CoreSansG-Regular.ttf");
+   src: url("http://lfranklin.studio.mcad.edu/webdev1/week12/casestudy-yumler/fonts/CoreSansG-Medium.ttf");
+      }
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -95,19 +100,87 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+     box-sizing: border-box;
+   }
 
+*, *:before, *:after {
+     box-sizing: inherit;
+   }
 
+ body {
+   font-family: "CoreSansG-Regular", sans-serif;
+   line-height: 1.4em;
+ }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+}
 
+.page-header {
+  position: relative;
+}
 
+.page-nav {
+  width: 100%;
+  height: 80px;
+  background: white;
+  border: blue thin solid;
+  position: fixed;
+  letter-spacing: 0.125em;
+}
+.page-nav img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 200px;
+}
 
+.page-nav i {
+  position: absolute;
+  top: 50%;
+  right: 5em;
+  transform: translate(0, -50%)
+}
+.btn {
+  width: 7em;
+  background: #000;
+  color: #fff;
+}
 
+.page-nav .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
 
+.page-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 0em;
+  transform: translate(0, -50%)
+}
 
+.page-nav li, a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  float: left;
+  margin-right: 1em;
+}
 
-
-
-
+.page-header-hero {
+  height: 500px;
+  border: blue thin solid;
+  padding-top: 5em;
+  text-align: center;
+}
 
 
 
