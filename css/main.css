@@ -224,8 +224,8 @@ h1, h2, h3 {
   line-height: 1.5em;
 }
 
-#hero-text a {
-
+#hero-text .btn {
+  border:  blue thin solid;
 
 }
 
@@ -242,6 +242,55 @@ h1, h2, h3 {
   font-weight: bold;
   font-size: 1em;
   letter-spacing: .15em;
+
+}
+
+/* First How it Works section */
+
+.page-howitworks {
+  position: relative;
+  margin: 7em 5em 10em 5em;
+  z-index: -50;
+}
+
+.section-h2 {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .15em;
+  margin: 0;
+  height: 2em;
+  width: 12em;
+  text-align: center;
+  padding: 1.25em 1em 1.75em 1em;
+}
+
+.page-howitworks .section-h2 {
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%,-80%);
+}
+
+.page-howitworks ul {
+  list-style: none;
+  margin-top: 5em;
+}
+
+.page-howitworks li {
+  float: left;
+  width: 32%;
+  padding: 0em 1em;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+/* We Deliver section */
+
+.page-deliver {
+  border: 1px blue solid;
+  background-color: #ffe532;
 
 }
 
