@@ -258,12 +258,13 @@ h1, h2, h3 {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.75em;
   letter-spacing: .15em;
   margin: 0;
   height: 2em;
-  width: 12em;
+  width: 10em;
   text-align: center;
-  padding: 1.25em 1em 1.75em 1em;
+  padding: 1em 0em 1.5em 0em;
 }
 
 .page-howitworks .section-h2 {
@@ -271,6 +272,7 @@ h1, h2, h3 {
   top: 0em;
   left: 50%;
   transform: translate(-50%,-80%);
+  width: 12em;
 }
 
 .page-howitworks ul {
@@ -290,31 +292,70 @@ h1, h2, h3 {
 
 .page-deliver {
   background-color: #ffe532;
-  height: 450px;
+  height: 500px;
   position: relative;
-
+  z-index: -50;
 }
 
 .page-deliver .section-h2 {
   position: absolute;
-  top: 5em;
+  top: 2em;
   left: 25%;
-  transform: translate(-50%,-80%);
+  transform: translate(-55%,0%);
 }
 
 .delivery-text {
   position: absolute;
   top: 8em;
   left: 0;
-  width: 50%;
+  width: 40%;
+  text-align: center;
+  margin: 0 3em;
 }
 
-.page-deliver img {
+.delivery-img {
+  width: 50%;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
-  height: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
 }
+
+.page-deliver img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.delivery-text h3 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: .15em;
+  line-height: 1.5em;
+  margin: 1em 2em;
+}
+
+.delivery-text p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.postcodes {
+  border: 2px black solid;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding: .5em 0;
+  margin: 1em;
+
+}
+
+/* Our Mission section */
+
+
 
 /* ==========================================================================
    Helper classes
