@@ -289,11 +289,32 @@ h1, h2, h3 {
 /* We Deliver section */
 
 .page-deliver {
-  border: 1px blue solid;
   background-color: #ffe532;
+  height: 450px;
+  position: relative;
 
 }
 
+.page-deliver .section-h2 {
+  position: absolute;
+  top: 5em;
+  left: 25%;
+  transform: translate(-50%,-80%);
+}
+
+.delivery-text {
+  position: absolute;
+  top: 8em;
+  left: 0;
+  width: 50%;
+}
+
+.page-deliver img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
 
 /* ==========================================================================
    Helper classes
