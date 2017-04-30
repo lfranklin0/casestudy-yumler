@@ -2,6 +2,7 @@
    font-family: "Core Sans G Regular", "Core Sans G Medium";
    src: url("http://lfranklin.studio.mcad.edu/webdev1/week12/casestudy-yumler/fonts/CoreSansG-Regular.ttf");
    src: url("http://lfranklin.studio.mcad.edu/webdev1/week12/casestudy-yumler/fonts/CoreSansG-Medium.ttf");
+   src: url("http://lfranklin.studio.mcad.edu/webdev1/week12/casestudy-yumler/fonts/CoreSansG-Light.ttf");
       }
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -249,7 +250,7 @@ h1, h2, h3 {
 
 .page-howitworks {
   position: relative;
-  margin: 7em 5em 10em 5em;
+  margin: 7em 5em 7em 5em;
   z-index: -50;
 }
 
@@ -275,6 +276,21 @@ h1, h2, h3 {
   width: 12em;
 }
 
+.page-howitworks h3 {
+  letter-spacing: .2em;
+  margin: 1.5em 0em;
+  font-size: 1.3em;
+}
+
+.howitworks-number {
+  font-size: 1.8em;
+  font-weight: bold;
+  background-color: #fbc5b8;
+  padding: 10px 15px 9px 15px;
+  border-radius: 50%;
+  color: #fff;
+}
+
 .page-howitworks ul {
   list-style: none;
   margin-top: 5em;
@@ -285,7 +301,8 @@ h1, h2, h3 {
   width: 32%;
   padding: 0em 1em;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.05em;
+  font-family: "CoreSansG-Light";
 }
 
 /* We Deliver section */
