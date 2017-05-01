@@ -160,7 +160,19 @@ h1, h2, h3 {
   right: 0;
   height: 100%;
   margin: 0;
+  width: 8em;
+  padding: 1.5625em;
 }
+
+/* .page-nav .btn::after {
+  content: ' ';
+  height: 50px;
+  color: #fee133;
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  bottom: 25px;
+} */
 
 .page-nav ul {
   list-style: none;
@@ -226,8 +238,12 @@ h1, h2, h3 {
 }
 
 #hero-text .btn {
-  border:  blue thin solid;
-
+  position: absolute;
+  margin: 0;
+  width: 10em;
+  padding: 1.5625em;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .page-header-hero p {
@@ -337,7 +353,6 @@ h1, h2, h3 {
   right: 0;
   top: 0;
   object-fit: contain;
-  display: flex;
   align-items: center;
 }
 
@@ -357,6 +372,7 @@ h1, h2, h3 {
 .delivery-text p {
   font-size: 18px;
   line-height: 1.5em;
+  font-family: "CoreSansG-Light";
 }
 
 .postcodes {
@@ -365,8 +381,9 @@ h1, h2, h3 {
   text-align: center;
   float: left;
   width: 20%;
-  padding: .5em 0;
-  margin: 1em;
+  padding: .2em 0;
+  margin: .5em;
+  transform: translate(50%);
 
 }
 /* Our Mission section */
