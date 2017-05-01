@@ -369,10 +369,141 @@ h1, h2, h3 {
   margin: 1em;
 
 }
-
 /* Our Mission section */
 
+.mission-header {
+  float: left;
+  height: 900px;
+  width: 49%;
+  background-image: url("../img/yellowstripe-bg.jpg");
+  background-size: cover;
+  margin-right: 1em;
+  margin-bottom: 0;
+  padding: 0;
+  position: relative;
+  z-index: -50;
+}
 
+.mission-header .section-h2 {
+  position: absolute;
+  top: 2em;
+  left: 2.5em;
+}
+
+.mission-text {
+  float: left;
+  width: 44%;
+  margin: 2em;
+  margin-bottom: 0em;
+}
+
+.mission-text h3 {
+  font-size: 2em;
+  letter-spacing: .2em;
+  position: relative;
+  display: inline-block;
+  z-index: -30;
+  margin: 1em 0em 0em 0em;
+}
+
+.mission-text h3::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -.2em;
+  height: .5em;
+  background: #fbc5b8;
+  z-index: -20;
+}
+
+.mission-text p {
+  font-family: "CoreSansG-Light";
+  font-size: 1.15em;
+  line-height: 1.5em;
+}
+
+/* How It works Steps */
+
+
+.page-hiw-steps {
+  background: #fbc5b8;
+  padding: 8em 6em 6em 6em;
+  position: relative;
+  z-index: -50;
+}
+
+.page-hiw-steps .section-h2 {
+  position: absolute;
+  transform: translate(-50%,0%);
+  top: 2em;
+  left: 50%;
+  width: 12em;
+}
+
+.hitw-float {
+  float: left;
+  width: 45%;
+  height: 400px;
+  margin: 3em 1em 3em 1em;
+}
+
+.page-hiw-steps img {
+  width: 500px;
+}
+
+.hitw-float h3 {
+  font-size: 1.8em;
+  letter-spacing: .15em;
+  padding: 20px 0 0 20px;
+}
+
+.hitw-float p {
+  font-family: "CoreSansG-Light";
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding: 20px 0 0 20px;
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: #000;
+  height: 150px;
+  position: relative;
+  letter-spacing: .2em;
+}
+
+.page-footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  float: left;
+  margin-right: .5em;
+}
+
+.footer-top {
+  font-size: 1em;
+  position: absolute;
+  top: 4em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-bottom {
+  font-size: .3em;
+  position: absolute;
+  top: 14em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-bottom a {
+  color: #a6a6a6;
+  letter-spacing: .15em;
+  padding: 0em 1em 0em 1em;
+}
 
 /* ==========================================================================
    Helper classes
